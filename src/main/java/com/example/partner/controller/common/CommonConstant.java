@@ -1,0 +1,11 @@
+package com.example.partner.controller.common;
+
+public interface CommonConstant {
+
+    String HTTP_METHOD_GET = "GET";
+
+    String HTTP_METHOD_POST = "POST";
+    
+   
+
+}
