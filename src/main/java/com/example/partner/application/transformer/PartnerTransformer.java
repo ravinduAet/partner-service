@@ -11,6 +11,12 @@ import com.example.partner.domain.partner.Address;
 import com.example.partner.domain.partner.Partner;
 import com.example.partner.domain.partner.PartnerType;
 
+/**
+ * partner request, response transformer
+ * 
+ * @author ravindu.s
+ *
+ */
 @Component
 public class PartnerTransformer {
 

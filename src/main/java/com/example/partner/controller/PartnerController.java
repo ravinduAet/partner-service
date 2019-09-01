@@ -24,6 +24,12 @@ import com.example.partner.platform.HTTPResponseHandler;
 
 import io.swagger.annotations.ApiOperation;
 
+/**
+ * Partner controller implementation.
+ * 
+ * @author ravindu.s
+ *
+ */
 @RestController
 public class PartnerController extends HTTPResponseHandler {
 

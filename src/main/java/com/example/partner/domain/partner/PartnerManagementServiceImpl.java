@@ -7,6 +7,12 @@ import org.springframework.stereotype.Service;
 
 import com.example.partner.infrastructure.repository.PartnerRepository;
 
+/**
+ * Partner management service implementation.
+ * 
+ * @author ravindu.s
+ *
+ */
 @Service
 public class PartnerManagementServiceImpl implements PartnerManagementService {
 

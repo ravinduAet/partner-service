@@ -6,6 +6,10 @@ public interface CommonConstant {
 
     String HTTP_METHOD_POST = "POST";
     
+    String PARTNER_ID= "partner-id";
+    
+    String PARTNER_TYPE= "partner-type";
+    
    
 
 }

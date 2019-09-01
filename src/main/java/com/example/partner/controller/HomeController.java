@@ -8,6 +8,12 @@ import com.example.partner.controller.common.RequestMappings;
 
 import springfox.documentation.annotations.ApiIgnore;
 
+/**
+ * Home Controller implementation.
+ * 
+ * @author ravindu.s
+ *
+ */
 @RestController
 @ApiIgnore
 public class HomeController {

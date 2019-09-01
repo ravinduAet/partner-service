@@ -18,14 +18,14 @@ public class SwaggerConfig {
     @Bean
     public Docket getDocket() {
 
-        return new Docket(DocumentationType.SWAGGER_2).groupName("si-user-service").select()
-                .apis(RequestHandlerSelectors.basePackage("com.surroundinsurance.administration.service.controller"))
+        return new Docket(DocumentationType.SWAGGER_2).groupName("partner-service").select()
+                .apis(RequestHandlerSelectors.basePackage("com.example.partner.controller"))
                 .paths(PathSelectors.any()).build().apiInfo(getApiInfo());
     }
 
     private ApiInfo getApiInfo() {
 
-        return new ApiInfoBuilder().title("SI User Service").description("SI User Service API Documentation")
+        return new ApiInfoBuilder().title("Partner Service").description("Partner Service API Documentation")
                 .version("1.0").build();
     }
 

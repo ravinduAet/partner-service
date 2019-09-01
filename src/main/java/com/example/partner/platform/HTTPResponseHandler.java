@@ -18,7 +18,12 @@ import org.springframework.web.bind.ServletRequestBindingException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.client.HttpStatusCodeException;
 
-
+/**
+ * Manage HTTP responses.
+ * 
+ * @author ravindu.s
+ *
+ */
 public abstract class HTTPResponseHandler {
 	 private static final String STATUS_CODE = "code";
 

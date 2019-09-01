@@ -3,7 +3,10 @@ package com.example.partner.platform;
 import java.util.Map;
 
 /**
- * The Class LoggingUtil.
+ * LoggingUtil implementation for manage logs in partner-service
+ * 
+ * @author ravindu.s
+ *
  */
 public class LoggingUtil {
 
@@ -19,6 +22,12 @@ public class LoggingUtil {
         }
 
         logger.info(message + ERROR_MESSAGE_SUFFIX, map);
+
+    }
+    
+    public static void logInfo(org.slf4j.Logger logger, String message, LoggingEvent loggingEvent) {
+
+        logger.info(message + LOGGING_EVENT_KEY + " " + loggingEvent.name());
 
     }
 

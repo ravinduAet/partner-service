@@ -1,5 +1,13 @@
 package com.example.partner.platform;
 
+/**
+ * AccountStatusCode take care of managing responses which client can easily
+ * understand. This act as Status code and Status message if validation failure
+ * occoured.
+ * 
+ * @author ravindu.s
+ *
+ */
 public enum AccountStatusCode {
 
     INVALID_PARTNER("Partner cannot be null."),

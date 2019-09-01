@@ -10,6 +10,14 @@ import com.example.partner.domain.partner.Partner;
 import com.example.partner.domain.partner.PartnerManagementService;
 import com.example.partner.domain.partner.PartnerType;
 
+/**
+ * Partner persistance and retrieval service implementation. If there are
+ * different retrieveal processes, then we can have seperate retrieval
+ * startegies implementation.
+ * 
+ * @author ravindu.s
+ *
+ */
 @Service
 public class PartnerPersistanceAndRetrievalStrategyImpl implements PartnerPersistanceAndRetrievalStrategy {
 

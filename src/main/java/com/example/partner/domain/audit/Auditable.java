@@ -14,6 +14,13 @@ import org.springframework.data.annotation.LastModifiedBy;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
+/**
+ * This class use for database audit purpose. This monitor database changes.
+ * 
+ * @author ravindu.s
+ *
+ * @param <U>
+ */
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
 public abstract class Auditable<U> {

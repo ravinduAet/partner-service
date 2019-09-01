@@ -9,6 +9,12 @@ import com.example.partner.controller.dto.request.PartnerRequest;
 import com.example.partner.domain.partner.PartnerType;
 import com.example.partner.platform.AccountStatusCode;
 
+/**
+ * Partner request validator
+ * 
+ * @author ravindu.s
+ *
+ */
 @Component
 public class PartnerRequestValidator {
 
